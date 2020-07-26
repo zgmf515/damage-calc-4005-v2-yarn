@@ -7,8 +7,12 @@
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
+  "jest": {
+    "reporters": ["default", "jest-junit"]
+  },
   "license": "ISC",
   "devDependencies": {
+    "jest-junit": "10.0.0",
     "mocha": "^4.0.1"
   }
 }
